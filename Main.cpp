@@ -13,7 +13,6 @@ int main()
     //Task 1-2
     char NameFile[] = "numbers.csv";
     Module_work_witch_file Module_WorkFile(NameFile);
-    int code;
     check_code(Module_WorkFile.update_file());
     check_code(Module_WorkFile.print_file());
 
