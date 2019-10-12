@@ -1,5 +1,4 @@
 #include <iostream>
-#include <stdio.h>
 #include <locale.h>
 #include "./work_with_file.h"
 

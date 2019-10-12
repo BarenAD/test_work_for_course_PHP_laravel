@@ -1,12 +1,10 @@
 #ifndef __WORK_WITCH_FILE_H__
 #define __WORK_WITCH_FILE_H__
 
-#include <iostream>
-#include <cstdio>
 #include <string.h>
-#include <cstdlib>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 using namespace std;
 
