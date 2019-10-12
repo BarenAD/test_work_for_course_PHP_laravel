@@ -41,8 +41,8 @@ void check_code(int in_code)
 
 double calc_factorial(int in_number)
 {
-    if (in_number <= 2){
-        return 2;
+    if (in_number <= 1){
+        return 1;
     } else {
         return in_number * calc_factorial(in_number-1);
     }
