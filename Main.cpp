@@ -1,5 +1,5 @@
 #include <iostream>
-#include <locale.h>
+//#include <locale.h>
 #include "./work_with_file.h"
 
 using namespace std;
@@ -9,7 +9,7 @@ double calc_factorial(int);
 
 int main()
 {
-    setlocale(LC_ALL,"russian");
+    //setlocale(LC_ALL,"russian");
     //Task 1-2
     char NameFile[] = "numbers.csv";
     Module_work_witch_file Module_WorkFile(NameFile);
@@ -20,11 +20,11 @@ int main()
     //Task 3
     int input = 0;
     while (input < 1 || input > 10){
-        cout<<"Введите число от 1 до 10: ";
+        cout<<"Enter a number 1 >= X <= 10: ";
         cin>>input;
     }
     //cout<<"Факториал числа "<<input<<" равен "<<calc_factorial(input);
-    printf("Факториал числа %i равен %8.0lf\n\n\n",input,calc_factorial(input));
+    printf("The factorial of a number %i === %8.0lf\n\n\n",input,calc_factorial(input));
     system("pause");
     return 0;
 };
